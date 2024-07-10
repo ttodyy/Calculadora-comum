@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora e História do Café</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <h1>CALCULADORA</h1>
+    <p class="history">
+        A história do café remonta a séculos atrás, com suas primeiras referências na Etiópia. A bebida tornou-se popular ao longo dos tempos, espalhando-se pela Arábia e depois pela Europa. Hoje, o café é uma das bebidas mais consumidas em todo o mundo, com uma cultura rica e variada que inclui desde cafés gourmet até tradições de café em diferentes culturas.
+    </p>
+    <div class="calculator">
+        <input id="resultado" type="text" placeholder="0" readonly><br>
+        <button onclick="limpar()">C</button>
+        <button onclick="alternaSinal()">+-</button>
+        <button onclick="porcentagem()">%</button>
+        <button onclick="dividir('/')">/</button><br>
+        <button onclick="concatena('7')">7</button>
+        <button onclick="concatena('8')">8</button>
+        <button onclick="concatena('9')">9</button>
+        <button onclick="multiplicar('*')">x</button><br>
+        <button onclick="concatena('4')">4</button>
+        <button onclick="concatena('5')">5</button>
+        <button onclick="concatena('6')">6</button>
+        <button onclick="subtrair('-')">-</button><br>
+        <button onclick="concatena('1')">1</button>
+        <button onclick="concatena('2')">2</button>
+        <button onclick="concatena('3')">3</button>
+        <button onclick="somar('+')">+</button><br>
+        <button onclick="concatena('0')">0</button>
+        <button onclick="concatena('.')">,</button>
+        <button onclick="calcular()">=</button>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
